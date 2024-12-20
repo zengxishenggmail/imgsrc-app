@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, type JSX } from "react";
 import { useTemplateStore } from "@/providers/template-store-provider"
 
 import type { Template } from "@/lib/templates"

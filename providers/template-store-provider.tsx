@@ -17,7 +17,7 @@ export interface TemplateStoreProviderProps {
 export const TemplateStoreProvider = ({
   children,
 }: TemplateStoreProviderProps) => {
-  const storeRef = useRef<StoreApi<TemplateStore>>()
+  const storeRef = useRef<StoreApi<TemplateStore>>(undefined)
   if (!storeRef.current) {
     storeRef.current = createTemplateStore()
   }

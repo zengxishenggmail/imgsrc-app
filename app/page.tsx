@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { InfoCircledIcon } from "@radix-ui/react-icons"
 
